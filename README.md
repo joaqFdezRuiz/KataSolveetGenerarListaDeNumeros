@@ -1,0 +1,4 @@
+KataSolveetGenerarListaDeNumeros
+================================
+
+KataSolveetGenerarListaDeNumeros
