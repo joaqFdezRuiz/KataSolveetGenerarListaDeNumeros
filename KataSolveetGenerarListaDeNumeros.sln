@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerarListaDeNumeros", "GenerarListaDeNumeros\GenerarListaDeNumeros.csproj", "{B3245612-EA8C-4168-B5A8-43A06260EF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerarListaDeNumerosTest", "GenerarListaDeNumerosTest\GenerarListaDeNumerosTest.csproj", "{58C446B5-2894-46C0-B326-560B33B9E9FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3245612-EA8C-4168-B5A8-43A06260EF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3245612-EA8C-4168-B5A8-43A06260EF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3245612-EA8C-4168-B5A8-43A06260EF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3245612-EA8C-4168-B5A8-43A06260EF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C446B5-2894-46C0-B326-560B33B9E9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C446B5-2894-46C0-B326-560B33B9E9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C446B5-2894-46C0-B326-560B33B9E9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C446B5-2894-46C0-B326-560B33B9E9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
