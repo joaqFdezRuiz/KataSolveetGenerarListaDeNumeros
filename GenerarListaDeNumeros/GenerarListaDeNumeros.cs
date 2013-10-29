@@ -9,7 +9,11 @@ namespace GenerarListaDeNumeros
   {
     public static object Juego(int numero1, int numero2)
     {
-      throw new ArgumentException("Números menores o iguales que cero no permitidos");
+      if (numero1 <= 0 && numero2 <= 0) {
+        throw new ArgumentException("Números menores o iguales que cero no permitidos");
+      }
+      throw new ArgumentException("Numero1 mayor que numero2 no permitido");
+      
     }
   }
 }
