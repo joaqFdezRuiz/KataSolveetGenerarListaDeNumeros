@@ -43,10 +43,17 @@ namespace GenerarListaDeNumerosTest
       Assert.AreEqual(expected, result);
     }
     [Test]
-    public void WhenNumber1_1_Number2_3_Return_2()
+    public void WhenNumber1_1_Number2_3_Return_2_6()
     {
       var result = GenerarListaDeNumeros.GenerarListaDeNumeros.Juego(1, 3);
       List<int> expected = new List<int> { 2, 6 };
+      Assert.AreEqual(expected, result);
+    }
+    [Test]
+    public void WhenNumber1_2_Number2_11_Return_6_10_14_18_22()
+    {
+      var result = GenerarListaDeNumeros.GenerarListaDeNumeros.Juego(2, 11);
+      List<int> expected = new List<int> { 6, 10, 14, 18, 22 };
       Assert.AreEqual(expected, result);
     }
   }
