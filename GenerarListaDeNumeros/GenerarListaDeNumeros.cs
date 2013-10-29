@@ -7,13 +7,16 @@ namespace GenerarListaDeNumeros
 {
   public class GenerarListaDeNumeros
   {
-    public static object Juego(int numero1, int numero2)
+    public static List<int> Juego(int numero1, int numero2)
     {
       if (numero1 <= 0 && numero2 <= 0) {
         throw new ArgumentException("Números menores o iguales que cero no permitidos");
       }
-      throw new ArgumentException("Numero1 mayor que numero2 no permitido");
-      
+      if (numero1 > numero2) {
+        throw new ArgumentException("Numero1 mayor que numero2 no permitido");
+      }
+      var listInt = new List<int> { 2 };
+      return listInt;
     }
   }
 }
