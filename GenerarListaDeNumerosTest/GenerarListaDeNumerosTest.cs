@@ -35,5 +35,19 @@ namespace GenerarListaDeNumerosTest
       List<int> expected = new List<int> { 2 };
       Assert.AreEqual(expected, result);
     }
+    [Test]
+    public void WhenNumber1_1_Number2_2_Return_2()
+    {
+      var result = GenerarListaDeNumeros.GenerarListaDeNumeros.Juego(1, 2);
+      List<int> expected = new List<int> { 2 };
+      Assert.AreEqual(expected, result);
+    }
+    [Test]
+    public void WhenNumber1_1_Number2_3_Return_2()
+    {
+      var result = GenerarListaDeNumeros.GenerarListaDeNumeros.Juego(1, 3);
+      List<int> expected = new List<int> { 2, 6 };
+      Assert.AreEqual(expected, result);
+    }
   }
 }
